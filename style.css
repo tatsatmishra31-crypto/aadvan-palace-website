@@ -330,9 +330,9 @@ font-size:45px;
 
 .hero-content h1 {
 
-    animation: revealTitle 10s ease forwards;
+    animation: revealTitle 4s ease forwards;
 
-      animation-delay: 4s;
+      animation-delay: 2s;
 
 }
 
