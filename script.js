@@ -6,14 +6,18 @@ function typeEffect() {
 
     if (index < text.length) {
 
-        document.getElementById("typing-title").innerHTML += text.charAt(index);
+        document.getElementById("typing-title").textContent += text.charAt(index);
 
         index++;
 
-        setTimeout(typeEffect, 180);
+        setTimeout(typeEffect, 250);
 
     }
 
 }
 
-window.onload = typeEffect;
+window.addEventListener("load", () => {
+
+    setTimeout(typeEffect, 800);
+
+});
