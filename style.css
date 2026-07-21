@@ -270,6 +270,74 @@ nav a {
 
 }
 
+/* Amenities */
+
+.amenities {
+
+    padding: 80px 8%;
+    text-align: center;
+    background: #faf7f2;
+
+}
+
+
+.amenities h2 {
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    margin-bottom: 50px;
+
+}
+
+
+.amenity-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+
+}
+
+
+.amenity {
+
+    background: white;
+    padding: 40px 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: all 0.4s ease;
+
+}
+
+
+.amenity img {
+
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 20px;
+
+}
+
+
+.amenity h3 {
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+
+.amenity:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+
+}
+
 /* WhatsApp */
 
 .whatsapp {
