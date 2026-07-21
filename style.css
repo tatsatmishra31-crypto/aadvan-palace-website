@@ -147,22 +147,9 @@ nav a {
 }
 
 
-.cards {
-
-    display: grid;
-
-    grid-template-columns: repeat(2,1fr);
-
-    gap: 30px;
-
-}
-
-
 .card {
 
-    height: 280px;
-
-    background: #222;
+    height: 350px;
 
     color: white;
 
@@ -172,20 +159,82 @@ nav a {
 
     align-items: center;
 
-    border-radius: 10px;
+    border-radius: 15px;
+
+    background-size: cover;
+
+    background-position: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+    transition: transform 0.4s ease;
+
+}
+
+
+.card:before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0,0,0,0.45);
 
 }
 
 
 .card h3 {
 
+    position: relative;
+
+    z-index: 2;
+
     font-family: 'Cormorant Garamond', serif;
 
-    font-size: 35px;
+    font-size: 38px;
 
 }
 
 
+.card:hover {
+
+    transform: scale(1.03);
+
+}
+
+
+/* Card Images */
+
+.wedding {
+
+    background-image: url("images/wedding.jpg");
+
+}
+
+
+.haldi {
+
+    background-image: url("images/haldi.jpg");
+
+}
+
+
+.birthday {
+
+    background-image: url("images/birthday.jpg");
+
+}
+
+
+.social {
+
+    background-image: url("images/social.jpg");
+
+}
 
 /* WhatsApp */
 
