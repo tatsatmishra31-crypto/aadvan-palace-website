@@ -92,7 +92,7 @@ nav a {
 
 .hero-content h1 {
 
-      font-family: 'Cinzel', serif;
+       font-family: 'Cinzel', serif;
 
     font-size: 85px;
 
@@ -105,11 +105,6 @@ nav a {
     letter-spacing: 3px;
 
     font-weight: 700;
-
-    overflow: hidden;
-white-space: nowrap;
-
-
 
 }
 
@@ -327,5 +322,28 @@ grid-template-columns:1fr;
 font-size:45px;
 
 }
+
+
+@keyframes revealTitle {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(30px);
+
+        filter: blur(8px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+        filter: blur(0);
+
+    }
 
 }
