@@ -323,6 +323,17 @@ font-size:45px;
 
 }
 
+}
+
+
+/* Luxury Title Animation */
+
+.hero-content h1 {
+
+    animation: revealTitle 2s ease forwards;
+
+}
+
 
 @keyframes revealTitle {
 
