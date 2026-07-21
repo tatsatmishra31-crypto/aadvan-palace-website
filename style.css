@@ -106,6 +106,9 @@ nav a {
 
     font-weight: 700;
 
+    overflow: hidden;
+white-space: nowrap;
+
 
 
 }
