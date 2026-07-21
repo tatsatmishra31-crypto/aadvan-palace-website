@@ -1,4 +1,4 @@
-const text = "Aadvan Palace";
+const text = "The Aadvan Palace";
 
 let index = 0;
 
