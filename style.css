@@ -92,15 +92,20 @@ nav a {
 
 .hero-content h1 {
 
-     font-family: 'Cormorant Garamond', serif;
+      font-family: 'Cinzel', serif;
 
     font-size: 85px;
 
     color: #d4af37;
 
-    text-shadow: 3px 4px 12px rgba(0,0,0,0.6);
+    text-shadow:
+    0 0 10px rgba(212,175,55,0.6),
+    3px 4px 12px rgba(0,0,0,0.7);
 
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+
+    font-weight: 700;
+
 
 
 }
