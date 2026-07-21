@@ -24,9 +24,17 @@ header {
 }
 
 .logo {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 42px;
+     font-family: 'Cormorant Garamond', serif;
+
+    font-size: 48px;
+
     font-weight: 700;
+
+    color: #d4af37;
+
+    text-shadow: 2px 3px 8px rgba(0,0,0,0.5);
+
+    letter-spacing: 1px;
 }
 
 nav a {
@@ -84,20 +92,31 @@ nav a {
 
 .hero-content h1 {
 
-    font-family: 'Cormorant Garamond', serif;
+     font-family: 'Cormorant Garamond', serif;
 
-    font-size: 70px;
+    font-size: 85px;
+
+    color: #d4af37;
+
+    text-shadow: 3px 4px 12px rgba(0,0,0,0.6);
+
+    letter-spacing: 2px;
+
 
 }
 
 
 .hero-content h2 {
 
-    margin-top: 15px;
+     font-family: 'Cormorant Garamond', serif;
 
-    font-size: 24px;
+    font-size: 55px;
 
-    letter-spacing: 3px;
+    color: #b08d2c;
+
+    margin-bottom: 25px;
+
+    letter-spacing: 1px;
 
 }
 
