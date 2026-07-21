@@ -159,7 +159,7 @@ nav a {
 
 .card {
 
-    height: 350px;
+    height: 450px;
 
     color: white;
 
@@ -212,7 +212,9 @@ nav a {
 
 .card:hover {
 
-    transform: scale(1.03);
+    transform: translateY(-10px) scale(1.03);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
 
 }
 
