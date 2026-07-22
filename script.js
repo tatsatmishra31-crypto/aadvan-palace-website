@@ -7,11 +7,11 @@ const galleryImages = [
 "images/gallery/gallery6.jpg"
 ];
 
-
 let currentImage = 0;
 
 const gallery = document.getElementById("gallery-image");
 
+gallery.classList.add("zoom");
 
 setInterval(() => {
 
@@ -26,9 +26,16 @@ gallery.style.opacity = 0;
 setTimeout(()=>{
 
 gallery.src = galleryImages[currentImage];
+
 gallery.style.opacity = 1;
 
-},500);
+gallery.classList.remove("zoom");
+
+setTimeout(()=>{
+gallery.classList.add("zoom");
+},100);
+
+},1500);
 
 
-},5000);
+},4000);
