@@ -30,7 +30,7 @@ header {
 
     font-weight: 700;
 
-    color: #d4af37;
+    color: white;
 
     text-shadow: 2px 3px 8px rgba(0,0,0,0.5);
 
@@ -172,7 +172,7 @@ nav a {
 .about p {
 
     font-family:'Cormorant Garamond', sans-serif;
-    font-size:20px;
+    font-size:25px;
     line-height:1.8;
     color:#555;
 
