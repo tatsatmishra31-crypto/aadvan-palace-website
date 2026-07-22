@@ -446,7 +446,7 @@ nav a {
     height:600px;
     margin:auto;
     padding:12px;
-    border:3px solid #d4af37;
+    border:6px solid #d4af37;
     border-radius:20px;
     background:white;
     box-shadow:0 20px 50px rgba(0,0,0,0.15);
@@ -461,13 +461,13 @@ nav a {
     object-fit:cover;
     border-radius:12px;
     opacity:1;
-    transition: opacity 1.5s ease, transform 6s ease;
+    transition: opacity 1.5s ease, transform 4s ease;
 
 }
 
 .gallery-frame img.zoom {
 
-    transform:scale(1.08);
+    transform:scale(1.00);
 
 }
 
