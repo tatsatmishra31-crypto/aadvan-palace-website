@@ -460,24 +460,18 @@ nav a {
     height:100%;
     object-fit:cover;
     border-radius:12px;
-    animation:galleryFade 1.5s ease;
+    opacity:1;
+    transition: opacity 1.5s ease, transform 6s ease;
+
+}
+
+.gallery-frame img.zoom {
+
+    transform:scale(1.08);
 
 }
 
 
-@keyframes galleryFade {
-
-    from {
-        opacity:0;
-        transform:scale(1.05);
-    }
-
-    to {
-        opacity:1;
-        transform:scale(1);
-    }
-
-}
 
 /* WhatsApp */
 
