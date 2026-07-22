@@ -37,6 +37,18 @@ header {
     letter-spacing: 1px;
 }
 
+.logo {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img {
+    width:35px;
+    height:35px;
+    object-fit:contain;
+}
+
 nav a {
     color: white;
     text-decoration: none;
