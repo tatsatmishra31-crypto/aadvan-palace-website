@@ -338,6 +338,77 @@ nav a {
 
 }
 
+/* Why Aadvan */
+
+.why-aadvan {
+
+    padding:80px 10%;
+    text-align:center;
+    background:white;
+
+}
+
+
+.why-aadvan h2 {
+
+    font-family:'Cormorant Garamond', serif;
+    font-size:45px;
+    margin-bottom:60px;
+    position:relative;
+
+}
+
+
+.why-aadvan h2:after {
+
+    content:"";
+    width:80px;
+    height:3px;
+    background:#d4af37;
+    position:absolute;
+    bottom:-20px;
+    left:50%;
+    transform:translateX(-50%);
+
+}
+
+
+.why-container {
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    text-align:left;
+
+}
+
+
+.why-item {
+
+    margin-bottom:40px;
+
+}
+
+
+.why-item h3 {
+
+    font-family:'Cormorant Garamond', serif;
+    font-size:30px;
+    color:#222;
+    margin-bottom:10px;
+
+}
+
+
+.why-item p {
+
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+    line-height:1.7;
+    color:#555;
+
+}
+
 /* WhatsApp */
 
 .whatsapp {
