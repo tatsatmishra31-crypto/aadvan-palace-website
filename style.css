@@ -22,7 +22,7 @@ header {
     justify-content:space-between;
     align-items:center;
 
-    background:white;
+    background:#faf3e0;
 
     z-index:1000;
 
@@ -37,7 +37,7 @@ header {
 
     font-weight: 700;
 
-    color: white;
+    color: #222;
 
     text-shadow: 2px 3px 8px rgba(0,0,0,0.5);
 
