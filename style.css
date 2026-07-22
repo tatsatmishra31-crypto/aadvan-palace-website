@@ -713,3 +713,31 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* About Page */
+
+.about-story{
+
+    padding:90px 15%;
+    text-align:center;
+    background:white;
+
+}
+
+.about-story h2{
+
+    font-family:'Cormorant Garamond', serif;
+    font-size:50px;
+    margin-bottom:40px;
+
+}
+
+.about-story p{
+
+    font-family:'Cormorant Garamond', serif;
+    font-size:24px;
+    line-height:1.9;
+    color:#555;
+    margin-bottom:30px;
+
+}
