@@ -533,6 +533,57 @@ grid-template-columns:1fr;
 
 }
 
+/* Location */
+
+.location {
+
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:40px;
+    padding:80px 8%;
+    background:#faf7f2;
+    align-items:center;
+
+}
+
+
+.location-info h2 {
+
+    font-family:'Cormorant Garamond', serif;
+    font-size:45px;
+    margin-bottom:25px;
+
+}
+
+
+.location-info p {
+
+    font-family:'Montserrat', sans-serif;
+    font-size:16px;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:20px;
+
+}
+
+
+.map iframe {
+
+    border-radius:15px;
+
+}
+
+
+@media(max-width:768px){
+
+.location {
+
+grid-template-columns:1fr;
+
+}
+
+}
+
 
 /* Luxury Title Animation */
 
