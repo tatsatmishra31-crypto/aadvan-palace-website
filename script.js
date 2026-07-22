@@ -38,4 +38,4 @@ gallery.classList.add("zoom");
 },1500);
 
 
-},2500);
+},4000);
